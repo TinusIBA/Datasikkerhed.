@@ -1,7 +1,6 @@
 // Gør at vi kan starte scenariet ved at klikke på knappen
 document.getElementById("startButton").addEventListener("click", startScenarie);
 
-// Funktion til at starte branching-scenariet
 function startScenarie() {
     let mulighed = prompt("Du modtager en e-mail, der angiveligt er fra din bank og beder om at opdatere dine kontodetaljer. Hvad gør du?\n\na) Klik på linket og indtast dine oplysninger.\nb) Kontroller afsenderens e-mail-adresse og undersøg e-mailens indhold nærmere.\nc) Ignorer e-mailen og slet den.\nd) Rapporter e-mailen som phishing og bloker afsenderen.");
 
