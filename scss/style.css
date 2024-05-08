@@ -49,7 +49,29 @@ main {
   display: block;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 250px;
   height: 50px;
   font-size: 25px;
+  background-color: #DBCB46;
+  border: solid 3px black;
+}
+
+#startButton:hover {
+  background-color: #f1e67b;
+  animation: ease-in-out 0.5s;
+}
+
+.slutTekst {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+footer {
+  background-color: #6547DB;
+}
+
+.footerTekst {
+  margin: 0px 0px 0px 20px;
 }/*# sourceMappingURL=style.css.map */
